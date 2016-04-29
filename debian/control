@@ -1,0 +1,26 @@
+Source: kdepim-addons
+Section: kde
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.17.0~),
+               pkg-kde-tools (>= 0.12),
+Standards-Version: 3.9.8
+Homepage: https://pim.kde.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
+
+Package: kdepim-addons
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Addons for KDE PIM applications
+ KDE (the K Desktop Environment) is a powerful Open Source graphical
+ desktop environment for Unix workstations. It combines ease of use,
+ contemporary functionality, and outstanding graphical design with the
+ technological superiority of the Unix operating system.
+ .
+ This package includes a collection of extensions for the Personal Information
+ Management (PIM) desktop applications provided with the official release of
+ KDE Applications.
