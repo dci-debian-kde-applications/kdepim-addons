@@ -1,127 +1,272 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2015-2016, Intevation GmbH
-           2001-2010, Klarälvdalens Datakonsult AB
-           2001-2008, Klar�vdalens Datakonsult AB
-           2002-2003, Marc Mutz <mutz@kde.org>
-           2008, Nokia Corporation and/or its subsidiary(-ies)
-License: GPL-2+
-
-Files: src/libkleopatraclient/core/command.cpp
-       src/libkleopatraclient/core/command.h
-       src/libkleopatraclient/core/command_p.h
-       src/libkleopatraclient/core/decryptverifyfilescommand.cpp
-       src/libkleopatraclient/core/decryptverifyfilescommand.h
-       src/libkleopatraclient/core/initialization.cpp
-       src/libkleopatraclient/core/initialization.h
-       src/libkleopatraclient/core/selectcertificatecommand.cpp
-       src/libkleopatraclient/core/selectcertificatecommand.h
-       src/libkleopatraclient/core/signencryptfilescommand.cpp
-       src/libkleopatraclient/core/signencryptfilescommand.h
-       src/libkleopatraclient/gui/certificaterequester.cpp
-       src/libkleopatraclient/gui/certificaterequester.h
-       src/utils/gnupg-registry.h
-       src/utils/kdpipeiodevice.cpp
-       src/utils/kdpipeiodevice.h
-Copyright: 2007-2008, Klarälvdalens Datakonsult AB
-           2006-2007, g10 Code GmbH
-License: LGPL-2+
-
-Files: src/conf/configuredialog.cpp
-       src/conf/configuredialog.h
-       src/models/modeltest.cpp
-       src/models/modeltest.h
-       src/utils/checker.h
-       src/utils/clipboardmenu.cpp
-       src/utils/clipboardmenu.h
-       src/utils/kdtoolsglobal.h
-       src/utils/pimpl_ptr.h
-Copyright: 2000, Espen Sand <espen@kde.org>
-           2001-2008, Klarälvdalens Datakonsult AB
-           2001-2002, Marc Mutz <mutz@kde.org>
-           2014-2016, Montel Laurent <montel@kde.org>
-           2007, Trolltech ASA
+Copyright: 2003, Andreas Gungl <a.gungl@gmx.de>
+           2004, Fred Emmott <fred87@users.sf.net>
+           2004, Hendrik Muhs <Hendrik.Muhs@web.de>
+           2003, Marc Mutz <mutz@kde.org>
+           2012-2016, Montel Laurent <montel@kde.org>
+           2014, Sandro Knauß <knauss@kolabsys.com>
+           2008-2009, Andras Mantia <amantia@kde.org>
 License: GPL-2
 
-Files: doc/*
-Copyright: 2004, Daniel Molkentin
-           2002, Steffen Hansen
-           2002, Matthias Kalle Dalheimer
-           2004-2010, Klarälvdalens Datakonsult AB
-License: GFDL-NIV-1.3+
+Files: examples/apps/coisceim/coisceimpart.cpp
+       examples/apps/coisceim/coisceimpart.h
+       examples/apps/coisceim/coisceimwidget.cpp
+       examples/apps/coisceim/coisceimwidget.h
+       examples/apps/coisceim/createfoldercontentswidget.cpp
+       examples/apps/coisceim/createfoldercontentswidget.h
+       examples/apps/coisceim/createtripwidget.cpp
+       examples/apps/coisceim/createtripwidget.h
+       examples/apps/coisceim/eventselectorwidget.cpp
+       examples/apps/coisceim/eventselectorwidget.h
+       examples/apps/coisceim/foldercontentswidget.cpp
+       examples/apps/coisceim/foldercontentswidget.h
+       examples/apps/coisceim/itemselection.cpp
+       examples/apps/coisceim/itemselection.h
+       examples/apps/coisceim/itemviewerwidget.cpp
+       examples/apps/coisceim/itemviewerwidget.h
+       examples/apps/coisceim/kontact-plugin/coisceim_plugin.cpp
+       examples/apps/coisceim/kontact-plugin/coisceim_plugin.h
+       examples/apps/coisceim/main.cpp
+       examples/apps/coisceim/mixedtreemodel.cpp
+       examples/apps/coisceim/mixedtreemodel.h
+       examples/apps/coisceim/noteviewer.cpp
+       examples/apps/coisceim/noteviewer.h
+       examples/apps/coisceim/stackedwidgetview.cpp
+       examples/apps/coisceim/stackedwidgetview.h
+       examples/apps/coisceim/todocheckableproxymodel.cpp
+       examples/apps/coisceim/todocheckableproxymodel.h
+       examples/apps/coisceim/trip.cpp
+       examples/apps/coisceim/trip.h
+       examples/apps/coisceim/tripcomponentfactory.cpp
+       examples/apps/coisceim/tripcomponentfactory.h
+       examples/apps/coisceim/tripmodel.cpp
+       examples/apps/coisceim/tripmodel.h
+       examples/apps/coisceim/tripwidget.cpp
+       examples/apps/coisceim/tripwidget.h
+       examples/apps/etm_usage/categorizedentitymodel.h
+       examples/apps/etm_usage/checkable2.cpp
+       examples/apps/etm_usage/checkable2.h
+       examples/apps/etm_usage/desctab.cpp
+       examples/apps/etm_usage/desctab.h
+       examples/apps/etm_usage/entitytreemodelfactory.cpp
+       examples/apps/etm_usage/entitytreemodelfactory.h
+       examples/apps/etm_usage/itemviewerwidget.cpp
+       examples/apps/etm_usage/itemviewerwidget.h
+       examples/apps/etm_usage/main.cpp
+       examples/apps/etm_usage/mainwindow.cpp
+       examples/apps/etm_usage/mainwindow.h
+       examples/apps/etm_usage/mixedtreemodel.cpp
+       examples/apps/etm_usage/mixedtreemodel.h
+       examples/apps/etm_usage/noteviewer.cpp
+       examples/apps/etm_usage/noteviewer.h
+       examples/apps/etm_usage/tab1widget.cpp
+       examples/apps/etm_usage/tab1widget.h
+       examples/apps/etm_usage/tab2_5widget.cpp
+       examples/apps/etm_usage/tab2_5widget.h
+       examples/apps/etm_usage/tab2widget.cpp
+       examples/apps/etm_usage/tab2widget.h
+       examples/apps/etm_usage/tab3widget.cpp
+       examples/apps/etm_usage/tab3widget.h
+       examples/apps/etm_usage/tab4widget.cpp
+       examples/apps/etm_usage/tab4widget.h
+       examples/apps/etm_usage/tab5widget.cpp
+       examples/apps/etm_usage/tab5widget.h
+       examples/apps/etm_usage/tab6widget.cpp
+       examples/apps/etm_usage/tab6widget.h
+       examples/apps/etm_usage/tab7widget.cpp
+       examples/apps/etm_usage/tab7widget.h
+       examples/apps/kabc/kabceditor.cpp
+       examples/apps/kabc/kabceditor.h
+       examples/apps/kabc/kabcviewer.cpp
+       examples/apps/kabc/kabcviewer.h
+       kaddressbook/editorpages/cryptopageplugin.cpp
+       kaddressbook/editorpages/cryptopageplugin.h
+       kaddressbook/plugins/checkgravatar/gravatar/autotests/gravatarcreatejobtest.cpp
+       kaddressbook/plugins/checkgravatar/gravatar/autotests/gravatarcreatejobtest.h
+       kaddressbook/plugins/checkgravatar/gravatar/autotests/gravatarupdatejobtest.cpp
+       kaddressbook/plugins/checkgravatar/gravatar/autotests/gravatarupdatejobtest.h
+       kaddressbook/plugins/checkgravatar/gravatar/job/gravatarupdatejob.cpp
+       kaddressbook/plugins/checkgravatar/gravatar/job/gravatarupdatejob.h
+       kaddressbook/plugins/sendmail/mailsenderjob.cpp
+       kaddressbook/plugins/sendmail/mailsenderjob.h
+       kaddressbook/plugins/sendvcards/autotests/sendvcardsjobtest.cpp
+       kaddressbook/plugins/sendvcards/autotests/sendvcardsjobtest.h
+       kaddressbook/plugins/sendvcards/sendvcardsjob.cpp
+       kaddressbook/plugins/sendvcards/sendvcardsjob.h
+       korganizer/plugins/datenums/configdialog.cpp
+       korganizer/plugins/datenums/configdialog.h
+       korganizer/plugins/datenums/datenums.cpp
+       korganizer/plugins/datenums/datenums.h
+       korganizer/plugins/hebrew/configdialog.cpp
+       korganizer/plugins/hebrew/configdialog.h
+       korganizer/plugins/hebrew/converter.cpp
+       korganizer/plugins/hebrew/converter.h
+       korganizer/plugins/hebrew/hebrew.cpp
+       korganizer/plugins/hebrew/hebrew.h
+       korganizer/plugins/hebrew/holiday.cpp
+       korganizer/plugins/hebrew/holiday.h
+       korganizer/plugins/hebrew/parsha.cpp
+       korganizer/plugins/hebrew/parsha.h
+       korganizer/plugins/picoftheday/configdialog.cpp
+       korganizer/plugins/picoftheday/configdialog.h
+       korganizer/plugins/picoftheday/picoftheday.cpp
+       korganizer/plugins/picoftheday/picoftheday.h
+       korganizer/plugins/thisdayinhistory/thisdayinhistory.cpp
+       korganizer/plugins/thisdayinhistory/thisdayinhistory.h
+       plugins/messageviewer/bodypartformatter/ms-tnef/application_ms-tnef.cpp
+       plugins/messageviewer/bodypartformatter/vcard/text_vcard.cpp
+       plugins/messageviewer/bodypartformatter/xdiff/text_xdiff.cpp
+Copyright: 2014, Clément Vannier <clement.vannier@free.fr>
+           2001, Cornelius Schumacher <schumacher@kde.org>
+           1994-2006, Danny Sadinoff <danny@sadinoff.com>
+           1995-1997, Free Software Foundation, Inc
+           2003, Jonathan Singer <jsinger@leeta.net>
+           2004, Klarälvdalens Datakonsult AB
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2004, Klar�vdalens Datakonsult AB
+           2012-2016, Laurent Montel <montel@kde.org>
+           2007, Loïc Corbasson <loic.corbasson@gmail.com>
+           2003-2004, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2010-2011, Stephen Kelly <steveire@gmail.com>
+           2004, Till Adam <adam@kde.org>
+           2007, Tobias Koenig <tokoe@kde.org>
+           2010, Volker Krause <vkrause@kde.org>
+License: GPL-2+
 
-Files: src/utils/kdlogtextwidget.cpp
-       src/utils/kdlogtextwidget.h
-Copyright: 2001-2010, Klaralvdalens Datakonsult AB
-License: LGPL-2+3
+Files: examples/apps/coisceim/note.cpp
+       examples/apps/coisceim/note.h
+       examples/apps/coisceim/qmllistselectionmodel.cpp
+       examples/apps/coisceim/qmllistselectionmodel.h
+       examples/apps/etm_usage/collectionmonitoredwidget.cpp
+       examples/apps/etm_usage/collectionmonitoredwidget.h
+       examples/apps/etm_usage/entityfindingwidget.cpp
+       examples/apps/etm_usage/entityfindingwidget.h
+       examples/apps/etm_usage/entitytreewidget.cpp
+       examples/apps/etm_usage/entitytreewidget.h
+       examples/apps/etm_usage/recursiveitemlistwidget.cpp
+       examples/apps/etm_usage/recursiveitemlistwidget.h
+       examples/apps/etm_usage/unreadmailsincollectionswidget.cpp
+       examples/apps/etm_usage/unreadmailsincollectionswidget.h
+       examples/apps/etm_usage/unreadmailswidget.cpp
+       examples/apps/etm_usage/unreadmailswidget.h
+       plugins/messageviewer/bodypartformatter/autotests/rendertest.cpp
+       plugins/messageviewer/bodypartformatter/autotests/rendertest.h
+       plugins/messageviewer/bodypartformatter/autotests/testobjecttreesource.h
+Copyright: 2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2010, Klarälvdalens Datakonsult AB
+           2010, Leo Franchi <lfranchi@kde.org>
+           2016, Sandro Knauß <sknauss@kde.org>
+           2009-2010, Stephen Kelly <steveire@gmail.com>
+           2010, Volker Krause <vkrause@kde.org>
+License: LGPL-2+
 
-Files: src/utils/kdsignalblocker.cpp
-       src/utils/kdsignalblocker.h
-Copyright: 2001-2009, Klaralvdalens Datakonsult AB
-License: GPL-2+3
-
-Files: src/kleo-assuan.h
-Copyright: 2001-2007, Free Software Foundation, Inc
-           2008, Klarälvdalens Datakonsult AB
-License: GPL-2+_or_LGPL-2+
- Kleopatra is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Files: plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockmatcher.cpp
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockmatcher.h
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockregexp.cpp
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockregexp.h
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblocksearchtree.cpp
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblocksearchtree.h
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockutil.cpp
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockutil.h
+Copyright: 2010-2014, David Rosca <nowrep@gmail.com>
+           2016, Montel Laurent <montel@kde.org>
+License: GPL-2_and_GPL-3+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as
+ published by the Free Software Foundation.
  .
- Kleopatra is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  General Public License for more details.
  .
  --
- Assuan is free software; you can redistribute it and/or modify it
- under the terms of the GNU Lesser General Public License as
- published by the Free Software Foundation; either version 2.1 of
- the License, or (at your option) any later version.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
  .
- Assuan is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
  .
  --
  The complete text of the GNU General Public License version 2 can be found in
  `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- Lesser General Public License version 2.1 can be found in
- `/usr/share/common-licenses/LGPL-2.1'.
+ General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
 
-Files: src/utils/gnupg-registry.c
-Copyright: 2005-2007, g10 Code GmbH
-License: LGPL-2.1+
- GpgEX is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public License
- as published by the Free Software Foundation; either version 2.1
- of the License, or (at your option) any later version.
+Files: plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockrule.cpp
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblockrule.h
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblocksubscription.cpp
+       plugins/messageviewerwebengineurlinterceptor/adblock/lib/adblocksubscription.h
+Copyright: 2009, Benjamin C. Meyer <ben@meyerhome.net>
+           2010-2014, David Rosca <nowrep@gmail.com>
+           2016, Montel Laurent <montel@kde.org>
+           2009, Zsombor Gegesy <gzsombor@gmail.com>
+License: GPL-2_and_GPL-3+_and_BSD-3-clause
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as
+ published by the Free Software Foundation.
  .
- GpgEX is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  General Public License for more details.
  .
- The complete text of the GNU Lesser General Public License version 2.1 can be
- found in `/usr/share/common-licenses/LGPL-2.1'.
+ --
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ --
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the Benjamin Meyer nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+ .
+ --
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
+ General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: examples/apps/etm_usage/mailmodel.cpp
+       examples/apps/etm_usage/mailmodel.h
+Copyright: 2009, Stephen Kelly <steveire@gmail.com>
+License: LGPL-2.1+
 
 Files: debian/*
 Copyright: 2016, Maximiliano Curia <maxy@debian.org>
 License: LGPL-2+
-
-License: GFDL-NIV-1.3+
- Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.3
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
- A copy of the license is included in the section entitled "GNU
- Free Documentation License".
- .
- The complete text of the GNU Free Documentation License version 1.3 can be
- found in `/usr/share/common-licenses/GFDL-1.3'.
 
 License: GPL-2
  This program is free software; you can redistribute it and/or modify it
@@ -150,7 +295,7 @@ License: GPL-2+
  The complete text of the GNU General Public License version 2 can be found in
  `/usr/share/common-licenses/GPL-2'.
 
-License: GPL-2+3
+License: GPL-3+
  This file may be distributed and/or modified under the terms of the
  GNU General Public License version 2 and version 3 as published by the
  Free Software Foundation and appearing in the file LICENSE.GPL included.
@@ -177,15 +322,16 @@ License: LGPL-2+
  The complete text of the GNU Library General Public License version 2 can be
  found in `/usr/share/common-licenses/LGPL-2'.
 
-License: LGPL-2+3
- This file may be distributed and/or modified under the terms of the
- GNU Lesser General Public License version 2 and version 3 as published by the
- Free Software Foundation and appearing in the file LICENSE.LGPL included.
+License: LGPL-2.1+
+ GpgEX is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public License
+ as published by the Free Software Foundation; either version 2.1
+ of the License, or (at your option) any later version.
  .
- This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
- WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ GpgEX is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
  .
- The complete text of the GNU Library General Public License version 2 can be
- found in `/usr/share/common-licenses/LGPL-2', likewise, the complete text fo
- the GNU Lesser General Public License version 3 can be found in
- `/usr/share/common-licenses/LGPL-3'.
+ The complete text of the GNU Lesser General Public License version 2.1 can be
+ found in `/usr/share/common-licenses/LGPL-2.1'.
