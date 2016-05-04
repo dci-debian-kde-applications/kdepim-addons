@@ -1,12 +1,12 @@
 --- a/kmail/plugins/common/avscripts/CMakeLists.txt
 +++ b/kmail/plugins/common/avscripts/CMakeLists.txt
-@@ -1,3 +1,7 @@
+@@ -1,3 +1,6 @@
  if(UNIX)
-   install( PROGRAMS kmail_clamav.sh kmail_sav.sh kmail_fprot.sh kmail_antivir.sh  DESTINATION ${KDE_INSTALL_BINDIR} )
-+  file(RENAME ${KDE_INSTALL_BINDIR}/kmail_clamav.sh  ${KDE_INSTALL_BINDIR}/kmail_clamav)
-+  file(RENAME ${KDE_INSTALL_BINDIR}/kmail_sav.sh     ${KDE_INSTALL_BINDIR}/kmail_sav)
-+  file(RENAME ${KDE_INSTALL_BINDIR}/kmail_fprot.sh   ${KDE_INSTALL_BINDIR}/kmail_fprot)
-+  file(RENAME ${KDE_INSTALL_BINDIR}/kmail_antivir.sh ${KDE_INSTALL_BINDIR}/kmail_antivir)
+-  install( PROGRAMS kmail_clamav.sh kmail_sav.sh kmail_fprot.sh kmail_antivir.sh  DESTINATION ${KDE_INSTALL_BINDIR} )
++  configure_file(kmail_clamav.sh ${KDE_INSTALL_BINDIR}/kmail_clamav COPYONLY)
++  configure_file(kmail_sav.sh ${KDE_INSTALL_BINDIR}/kmail_sav COPYONLY)
++  configure_file(kmail_fprot.sh ${KDE_INSTALL_BINDIR}/kmail_fprot COPYONLY)
++  configure_file(kmail_antivir.sh ${KDE_INSTALL_BINDIR}/kmail_antivir COPYONLY)
  endif()
 --- a/kmail/plugins/common/kmail.antivirusrc
 +++ b/kmail/plugins/common/kmail.antivirusrc
