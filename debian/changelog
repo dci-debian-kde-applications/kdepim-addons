@@ -1,11 +1,12 @@
-kdepim-addons (16.04.1-1~1.gbpbaed21) UNRELEASED; urgency=medium
+kdepim-addons (16.04.1-1~2.gbp9cc067) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @baed2199f8ee67e36effbb0c77aadcd23f83c126 **
+  ** SNAPSHOT build @9cc06712f47b96a1a6939be95828b6a0e37b2340 **
 
   [ Maximiliano Curia ]
   * Initial release.
+  * Add missing breaks/replaces
 
   [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 22:16:17 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 17:26:31 +0200
