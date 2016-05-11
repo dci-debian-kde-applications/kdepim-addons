@@ -39,6 +39,16 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
 Package: kdepim-addons
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kaddressbook (<= 4:16.04),
+        kmail (<= 4:16.04),
+        korganizer (<= 4:16.04),
+        libkf5messageviewer5 (<= 4:16.04),
+        libkf5pimcommon5 (<= 4:16.04)
+Replaces: kaddressbook (<= 4:16.04),
+          kmail (<= 4:16.04),
+          korganizer (<= 4:16.04),
+          libkf5messageviewer5 (<= 4:16.04),
+          libkf5pimcommon5 (<= 4:16.04)
 Description: Addons for KDE PIM applications
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
