@@ -1,12 +1,13 @@
-kdepim-addons (16.04.1-1~2.gbp9cc067) UNRELEASED; urgency=medium
+kdepim-addons (16.04.1-1~3.gbpa84ca4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9cc06712f47b96a1a6939be95828b6a0e37b2340 **
+  ** SNAPSHOT build @a84ca41fd6dee224db904d5154383598636dbdf7 **
 
   [ Maximiliano Curia ]
   * Initial release.
   * Add missing breaks/replaces
+  * Add spambayes back (was in kdepim)
 
   [ Automatic packaging ]
   * Refresh patches
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 17:26:31 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 13 May 2016 14:16:12 +0200
