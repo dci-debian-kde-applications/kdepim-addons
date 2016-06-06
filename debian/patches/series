@@ -1,2 +1,3 @@
+upstream_add_copying_files.patch
 remove_sh_extensions
 spambayes.patch
