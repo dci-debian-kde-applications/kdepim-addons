@@ -1,13 +1,12 @@
-kdepim-addons (16.04.1-1~3.gbpa84ca4) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a84ca41fd6dee224db904d5154383598636dbdf7 **
+kdepim-addons (16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Initial release.
   * Add missing breaks/replaces
   * Add spambayes back (was in kdepim)
+  * Add new upstream patch: upstream_add_copying_files.patch
 
   [ Automatic packaging ]
   * Refresh patches
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 13 May 2016 14:16:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 23:37:08 +0200
