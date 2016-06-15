@@ -1,3 +1,11 @@
+kdepim-addons (16.04.2-1~1.gbp6faa54) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6faa541eb9d16d0f366bd2cd831f21a49c197073 **
+
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:16:13 +0200
+
 kdepim-addons (16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
