@@ -1,0 +1,19 @@
+--- a/plugins/messageviewer/bodypartformatter/autotests/rendertest.cpp
++++ b/plugins/messageviewer/bodypartformatter/autotests/rendertest.cpp
+@@ -52,6 +52,9 @@
+     QFETCH(QString, referenceFileName);
+     QFETCH(QString, outFileName);
+ 
++    // This test only works using the oxygen icon theme
++    QIcon::setThemeName(QStringLiteral("oxygen"));
++
+     const QString htmlFileName = outFileName + QLatin1String(".html");
+ 
+     // load input mail
+@@ -120,4 +123,4 @@
+     QCOMPARE(proc.exitCode(), 0);
+ }
+ 
+-QTEST_MAIN(RenderTest)
+\ No newline at end of file
++QTEST_MAIN(RenderTest)
