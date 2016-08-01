@@ -2,3 +2,5 @@ upstream_add_copying_files.patch
 remove_sh_extensions
 spambayes.patch
 set_icontheme.diff
+get-rid-of-not-needed-div.patch
+Do-not-allow-html-mail-to-use-css-that-only-should-b.patch
