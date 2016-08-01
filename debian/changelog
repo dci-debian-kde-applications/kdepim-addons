@@ -1,10 +1,17 @@
-kdepim-addons (16.04.3-1~1.gbpf29edc) UNRELEASED; urgency=medium
+kdepim-addons (16.04.3-1~2.gbp7d6cdd) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @7d6cdd248c3131ee21502c5596173ff7a3fff140 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @f29edc4f2a6caa96b007d609fe71813be878611c **
 
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:16:15 +0200
+  [ Maximiliano Curia ]
+  * Add upstream patches: get-rid-of-not-needed-div.patch and Do-not-allow-html-mail-to-use-css-that-only-should-b.patch
+    (Closes: 814762)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 01 Aug 2016 14:53:10 +0200
 
 kdepim-addons (16.04.2-2) unstable; urgency=low
 
