@@ -8,8 +8,6 @@ Subject: [PATCH] get rid of not needed div
  .../defaultgrantleeheaderstyleplugin/theme/5.2/style.css             | 5 -----
  2 files changed, 7 deletions(-)
 
-diff --git a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html
-index dfdf1f2..41c3d8e 100644
 --- a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html
 +++ b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html
 @@ -1,6 +1,4 @@
@@ -18,12 +16,10 @@ index dfdf1f2..41c3d8e 100644
 -</div>
  <div id="kmailPage">
  <div id="headerbox" dir="ltr">
-         {% if header.showMailAction %}
-diff --git a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css
-index 9bde003..60e6597 100644
+         {% if header.screenmode %}
 --- a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css
 +++ b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css
-@@ -2,11 +2,6 @@ body {
+@@ -2,11 +2,6 @@
      margin: 0;
      padding: 0;
  }
@@ -35,6 +31,3 @@ index 9bde003..60e6597 100644
  table.outer {
      display: inline;
      position: fixed !important;
--- 
-2.8.1
-
