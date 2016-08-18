@@ -43,7 +43,11 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
 
 Package: kdepim-addons
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: plasma-framework,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kaddressbook (<= 4:16.04),
         kmail (<= 4:16.08),
         korganizer (<= 4:16.04),
