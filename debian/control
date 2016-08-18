@@ -45,12 +45,12 @@ Package: kdepim-addons
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kaddressbook (<= 4:16.04),
-        kmail (<= 4:16.04),
+        kmail (<= 4:16.08),
         korganizer (<= 4:16.04),
         libkf5messageviewer5 (<= 4:16.04),
         libkf5pimcommon5 (<= 4:16.04)
 Replaces: kaddressbook (<= 4:16.04),
-          kmail (<= 4:16.04),
+          kmail (<= 4:16.08),
           korganizer (<= 4:16.04),
           libkf5messageviewer5 (<= 4:16.04),
           libkf5pimcommon5 (<= 4:16.04)
