@@ -1,11 +1,12 @@
-kdepim-addons (16.08.0-1~1.gbp13b226) UNRELEASED; urgency=medium
+kdepim-addons (16.08.0-1~2.gbp85f27b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @13b226e77c5da80ddbb18833c265ff6858efbfa2 **
+  ** SNAPSHOT build @85f27b89ad01a91c57ea020d55575b1632458284 **
 
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 10:16:10 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 12:08:38 +0200
 
 kdepim-addons (16.04.3-1) unstable; urgency=high
 
