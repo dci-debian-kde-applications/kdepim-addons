@@ -1,13 +1,14 @@
-From a97f99b2769d39ffa03a2cd2454f10ef93222486 Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Sandro=20Knau=C3=9F?= <sknauss@kde.org>
+From: =?utf-8?q?Sandro_Knau=C3=9F?= <sknauss@kde.org>
 Date: Mon, 25 Jul 2016 12:42:33 +0200
-Subject: [PATCH] get rid of not needed div
+Subject: get rid of not needed div
 
 ---
  .../defaultgrantleeheaderstyleplugin/theme/5.2/header.html           | 2 --
  .../defaultgrantleeheaderstyleplugin/theme/5.2/style.css             | 5 -----
  2 files changed, 7 deletions(-)
 
+diff --git a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html
+index cc3507d..3927b9e 100644
 --- a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html
 +++ b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/header.html
 @@ -1,6 +1,4 @@
@@ -17,9 +18,11 @@ Subject: [PATCH] get rid of not needed div
  <div id="kmailPage">
  <div id="headerbox" dir="ltr">
          {% if header.screenmode %}
+diff --git a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css
+index 9bde003..60e6597 100644
 --- a/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css
 +++ b/plugins/messageviewerheaderplugins/defaultgrantleeheaderstyleplugin/theme/5.2/style.css
-@@ -2,11 +2,6 @@
+@@ -2,11 +2,6 @@ body {
      margin: 0;
      padding: 0;
  }
