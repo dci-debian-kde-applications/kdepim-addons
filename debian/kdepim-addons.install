@@ -1,4 +1,5 @@
 etc/xdg/kdepim-addons.categories
+etc/xdg/kdepim-addons.renamecategories
 etc/xdg/kmail.antispamrc
 etc/xdg/kmail.antivirusrc
 usr/

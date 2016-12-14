@@ -19,6 +19,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5i18n-dev (>= 5.19.0~),
                libkf5incidenceeditor-dev (>= 5.2.0~),
                libkf5kaddressbookgrantlee-dev (>= 5.2.0~),
+               libkf5kaddressbookimportexport-dev (>= 5.2.0~),
                libkf5khtml-dev (>= 5.19.0~),
                libkf5libkdepim-dev (>= 5.2.0~),
                libkf5libkleo-dev (>= 5.2.0~),
@@ -51,12 +52,12 @@ Depends: plasma-framework,
 Breaks: kaddressbook (<= 4:16.04),
         kmail (<= 4:16.08),
         korganizer (<= 4:16.04),
-        libkf5messageviewer5 (<= 4:16.04),
+        libkf5messageviewer5 (<= 4:16.08.1+p16.04+git20160921.0606-0),
         libkf5pimcommon5 (<= 4:16.04)
 Replaces: kaddressbook (<= 4:16.04),
           kmail (<= 4:16.08),
           korganizer (<= 4:16.04),
-          libkf5messageviewer5 (<= 4:16.04),
+          libkf5messageviewer5 (<= 4:16.08.1+p16.04+git20160921.0606-0),
           libkf5pimcommon5 (<= 4:16.04)
 Description: Addons for KDE PIM applications
  KDE (the K Desktop Environment) is a powerful Open Source graphical
