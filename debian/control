@@ -52,12 +52,12 @@ Depends: plasma-framework,
 Breaks: kaddressbook (<= 4:16.04),
         kmail (<= 4:16.08),
         korganizer (<= 4:16.04),
-        libkf5messageviewer5 (<= 4:16.08.1+p16.04+git20160921.0606-0),
+        libkf5messageviewer5 (<< 4:16.12.0),
         libkf5pimcommon5 (<= 4:16.04)
 Replaces: kaddressbook (<= 4:16.04),
           kmail (<= 4:16.08),
           korganizer (<= 4:16.04),
-          libkf5messageviewer5 (<= 4:16.08.1+p16.04+git20160921.0606-0),
+          libkf5messageviewer5 (<< 4:16.12.0),
           libkf5pimcommon5 (<= 4:16.04)
 Description: Addons for KDE PIM applications
  KDE (the K Desktop Environment) is a powerful Open Source graphical
