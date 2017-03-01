@@ -36,7 +36,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5xmlgui-dev (>= 5.19.0~),
                libqt5webchannel5-dev | libqt5webchannel-dev,
                pkg-kde-tools (>= 0.12),
-               qt5webengine-dev | libqt5webengine5-dev,
+               qtwebengine5-dev | libqt5webengine5-dev,
                qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
 Homepage: https://pim.kde.org/
