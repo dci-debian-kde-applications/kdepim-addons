@@ -55,12 +55,14 @@ Breaks: kaddressbook (<= 4:16.04),
         kmail (<= 4:16.08),
         korganizer (<= 4:16.04),
         libkf5messageviewer5 (<< 4:16.12.0),
-        libkf5pimcommon5 (<= 4:16.04)
+        libkf5pimcommon5 (<= 4:16.04),
+        ${kde-l10n:all}
 Replaces: kaddressbook (<= 4:16.04),
           kmail (<= 4:16.08),
           korganizer (<= 4:16.04),
           libkf5messageviewer5 (<< 4:16.12.0),
-          libkf5pimcommon5 (<= 4:16.04)
+          libkf5pimcommon5 (<= 4:16.04),
+          ${kde-l10n:all}
 Description: Addons for KDE PIM applications
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
