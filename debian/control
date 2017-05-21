@@ -3,7 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: akonadi-import-wizard,
+               cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.19.0~),
                libgpgme-dev | libgpgme11-dev,
