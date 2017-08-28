@@ -1,3 +1,12 @@
+kdepim-addons (17.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 16:03:50 +0200
+
 kdepim-addons (17.08.0-0neon) xenial; urgency=medium
 
   * New release
