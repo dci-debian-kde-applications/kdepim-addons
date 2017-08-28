@@ -48,7 +48,7 @@ Build-Depends: cmake (>= 3.1~),
                qtbase5-dev (>= 5.6.0~)
                libgpgme-dev | libgpgme11-dev,
                qtwebengine5-dev | libqt5webengine5-dev,
-Standards-Version: 3.9.8
+Standards-Version: 4.1.0
 Homepage: https://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
