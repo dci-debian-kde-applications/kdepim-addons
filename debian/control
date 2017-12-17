@@ -57,6 +57,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-addons.git
 
 Package: kdepim-addons
 Architecture: any
+Multi-Arch: same
 Depends: plasma-framework,
          qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
