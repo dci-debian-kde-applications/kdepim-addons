@@ -1,8 +1,9 @@
-kdepim-addons (17.08.3-1) UNRELEASED; urgency=medium
+kdepim-addons (17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Sandro Knauß ]
   * New upstream release (17.08.3).
-  * Bump Standards-Version to 4.1.2 (No changes needed).
   * Bump Standards-Version to 4.1.2 (No changes needed).
   * Mark kdepim-addons as Multi-Arch: same.
   * Remove not needed Build-Deps.
@@ -10,7 +11,7 @@ kdepim-addons (17.08.3-1) UNRELEASED; urgency=medium
   * Bump debhelper build-dep and compat to 10.
   * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Dec 2017 11:12:59 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:53:44 +0100
 
 kdepim-addons (17.08.0-1) experimental; urgency=medium
 
