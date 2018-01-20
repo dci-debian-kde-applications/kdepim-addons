@@ -1,1 +1,4 @@
-kdepim-addons: package-name-doesnt-match-sonames libadblocklibprivate5 libcoisceim-widget5 libkaddressbookimportexportlibprivate5 libkaddressbookmergelibprivate5 libshorturlpluginprivate5
+# private libraries
+kdepim-addons: package-name-doesnt-match-sonames
+# private library
+kdepim-addons: no-symbols-control-file
